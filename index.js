@@ -1,4 +1,4 @@
-alert("to use the drum kit, click or press the corresponding key to hear a sound");
+alert("to use the drum kit, click or press the corresponding key to hear sound");
 for(var i=0; i<document.querySelectorAll(".drum").length;i++)
 {
   document.querySelectorAll(".drum")[i].addEventListener("click",function() {
